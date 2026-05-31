@@ -1,5 +1,7 @@
 # Simon Says Game 🎮
 
+![Simon Says Game](https://github.com/mayur-thakre-7526/simon-says-game/blob/main/simon-says-preview.png?raw=true)
+
 A browser-based Simon Says memory game built using HTML, CSS, and JavaScript.
 
 ## Features
