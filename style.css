@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30,#243b55);
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 27px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.yellow {
+    background:#ffbe0b;
+}
+
+.red {
+    background:#ff4d6d;
+}
+
+.green {
+    background:#06d6a0;
+}
+
+.purple {
+    background:#8338ec;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: pink;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        height: 140px;
+        width: 140px;
+        margin: 15px;
+    }
+}
+
+/* Write Some CSS By Myself */
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color:#e0e0e0;
+}
+
+.btn {
+    border: 5px solid white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-container {
+    padding:30px;
+    border-radius:20px;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(10px);
+}
